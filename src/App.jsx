@@ -6,11 +6,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // import component
 import Navbar from './components/section/Navbar';
+import Footer from './components/section/Footer';
 
 // import pages
 import Home from './pages/Home';
-import About from './pages/About';
 import Product from './pages/Product';
+
+
 
 function App() {
   return (
@@ -18,12 +20,13 @@ function App() {
       <BrowserRouter>
         <Navbar />
 
+
         {/* Routing */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
           <Route path="/product" element={<Product />} />
         </Routes>
+        <Footer />
 
       </BrowserRouter>
 

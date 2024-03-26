@@ -7,7 +7,7 @@ import plant3 from '../../image/plant3.png'
 export default function SecHero() {
     return (
 
-        <section className='container'>
+        <section className='container '>
             <div className='flex gap-3 min-h-64 '>
                 {/* text */}
                 <div className='w-1/2 mt-40'>
@@ -15,7 +15,7 @@ export default function SecHero() {
                         <span className='text-mercury-800'>FOR PLANT</span></h1>
                     {/* button */}
 
-                    <div className='flex gap-3'>
+                    <div className='flex gap-3 '>
                         <button className='p-3 mt-5 font-semibold text-white bg-malachite-800 rounded-lg'>
                             Add to Cart
                         </button>
